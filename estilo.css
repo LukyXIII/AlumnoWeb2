@@ -1,0 +1,42 @@
+body {padding-left: 11em;font-family: Georgia, "Times New Roman",
+  Times, serif;
+color: rgb(182, 82, 15);
+background-color: #000000e7 }  
+ul.navbar {
+list-style-type: none;
+padding: 0;
+margin: 20;
+position: absolute;
+top: 2em;
+left: 1em;
+width: 9em }
+ul.navbar li {
+background: rgb(0, 0, 0);
+margin: 0.5em 0;
+padding: 0.3em;
+border-right: 1em solid black }
+ul.navbar a {
+text-decoration: none }
+a:link {
+color: rgba(182, 82, 15) }
+a:visited {
+color: purple }
+address {
+margin-top: 20em;
+padding-top: 1em;
+border-top: thin dotted }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #0000007c;
+}
